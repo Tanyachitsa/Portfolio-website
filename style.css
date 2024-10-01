@@ -5,7 +5,7 @@ body {
   border-radius: 10px;
 }
 .title {
-  padding-top: 350px;
+  padding-top: 250px;
   font-size: 60px;
   font-weight: bold;
 }
@@ -14,4 +14,37 @@ body {
 }
 .socials {
   border-radius: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0px 22px;
+}
+.fa-brands.fa-linkedin {
+  font-size: 40px;
+}
+.fa-brands.fa-github {
+  font-size: 40px;
+}
+.intro {
+  font-size: 30px;
+}
+.coding-icons {
+  padding-top: 100px;
+}
+.fa-brands {
+  padding: 10px;
+}
+.fa-brands.fa-html5 {
+  font-size: 30px;
+}
+.fa-brands.fa-css3-alt {
+  font-size: 30px;
+}
+.fa-brands.fa-js {
+  font-size: 30px;
+}
+.fa-brands.fa-square-git {
+  font-size: 30px;
+}
+.fa-brands.fa-square-github {
+  font-size: 30px;
 }
