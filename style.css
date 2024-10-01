@@ -1,8 +1,14 @@
 body {
   padding: 25px;
 }
+.page {
+  background-color: transparent;
+  background-image: url(../media/professional-background.jpg);
+}
 .top-bar {
   border-radius: 10px;
+  background-color: transparent;
+  border-color: #efefef;
 }
 .title {
   padding-top: 250px;
@@ -13,10 +19,12 @@ body {
   padding-top: 10px;
 }
 .socials {
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: bold;
   font-size: 25px;
   padding: 0px 22px;
+  background-color: transparent;
+  border-color: #efefef;
 }
 .fa-brands.fa-linkedin {
   font-size: 40px;
@@ -27,11 +35,11 @@ body {
 .intro {
   font-size: 30px;
 }
-.coding-icons {
-  padding-top: 100px;
+.contact-section {
+  padding-bottom: 50px;
 }
 .fa-brands {
-  padding: 10px;
+  padding: 7px;
 }
 .fa-brands.fa-html5 {
   font-size: 30px;
