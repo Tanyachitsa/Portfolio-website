@@ -1,9 +1,8 @@
-let button = document.querySelector(".top-bar.weather");
-button.addEventListener("click", function () {
-  window.open("https://finalweatherprojectshecodes.netlify.app/", "_blank");
-});
+let button = document.getElementsByClassName("contact-button")[0];
+button.addEventListener("click", toggleDetails);
 
-let buttonRecipe = document.querySelector(".top-bar.recipe");
-buttonRecipe.addEventListener("click", function () {
-  window.open("pythonProject.html", "_blank");
-});
+function toggleDetails() {
+  const details = document.getElementById("details");
+  const isVisible = details.style.display === "block";
+  details.style.display = isVisible ? "none" : "block";
+}
