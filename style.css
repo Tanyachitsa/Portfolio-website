@@ -1,82 +1,85 @@
 body {
   padding: 25px;
-  /* background-color: #fadde1; */
-  background-color: rgba(250, 221, 225, 0.5);
+  font-family: "Lato", sans-serif;
 }
-
-main {
-  background-color: rgba(250, 221, 225, 0.5);
-  border-radius: 5px;
-  opacity: 0.7;
+ul {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  opacity: 0.5;
 }
 footer {
+  padding-top: 10px;
+  border-top: 2px solid #000000;
+}
+button {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-color: #e8e9ec;
+}
+button:hover {
   opacity: 0.7;
 }
-p {
-  padding-top: 10px;
-  margin: 0%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.nav {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 40px;
 }
-a {
-  color: black;
+.nav-content {
+  padding-right: 40px;
 }
-.container.text-center {
-  padding-bottom: 20px;
+.memoji {
+  border-radius: 40px;
 }
-.top-bar {
-  border-radius: 10px;
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom-color: #8d8185;
+.main-wrap {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 .title {
-  padding-top: 210px;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 650;
 }
 .name {
   font-size: 60px;
-  font-weight: bold;
-}
-.coding-icons {
-  padding-top: 10px;
-}
-
-.fa-brands.fa-linkedin {
-  font-size: 40px;
-}
-.fa-brands.fa-github {
-  font-size: 40px;
+  font-weight: 900;
 }
 .intro {
-  font-size: 19px;
+  font-size: 17px;
 }
-.contact-section {
+.contact-button {
+  margin-top: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.card {
+  margin: 30px;
+  border: 2px solid #dceef9;
+}
+.skills-title {
+  padding-bottom: 40px;
+  font-size: 60px;
+  text-align: center;
+}
+.row-project {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  border: 2px solid #dceef9;
+  border-radius: 10px;
+  padding: 25px;
+}
+.project-title {
+  padding-top: 30px;
   padding-bottom: 30px;
-  padding-top: 25px;
+  font-size: 60px;
+  text-align: center;
 }
-.fa-brands {
-  padding: 7px;
+.project-link {
+  text-decoration: none;
 }
-.fa-brands.fa-html5 {
-  font-size: 30px;
-}
-.fa-brands.fa-css3-alt {
-  font-size: 30px;
-}
-.fa-brands.fa-js {
-  font-size: 30px;
-}
-.fa-brands.fa-square-git {
-  font-size: 30px;
-}
-.fa-brands.fa-square-github {
-  font-size: 30px;
-}
-.fa-brands.fa-react.fa-spin {
-  font-size: 30px;
-}
-.fa-brands.fa-node {
-  font-size: 30px;
+#details {
+  font-size: 25px;
 }
