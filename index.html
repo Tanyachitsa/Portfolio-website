@@ -25,6 +25,10 @@
       src="https://kit.fontawesome.com/dd9474146c.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -50,211 +54,242 @@
       </nav>
     </header>
     <main>
-      <div class="container text-center main-wrap">
-        <div class="row">
-          <div class="col">
-            <span class="title">Hi! I'm</span>
-            <span class="name">Thelma Chitsa</span>
-            <div class="intro">
-              I'm a Pharmaceutical science graduate transitioning into the tech
-              sector a passion for building responsive web applications.
-              Self-taught and project-driven, I have in experience with React,
-              Vite and JavaScript, plus node.js for backend functionality.
-              Actively seeking a junior frontend developer role where I can
-              contribute, grow, and learn from a collaborative team.
-            </div>
-            <button class="contact-button">Contact Details</button>
-            <ul id="details" style="display: none">
-              <li>Email: thelmatchitsa@gmail.com</li>
-              <hr />
-              <li>Number: +44 7387409626</li>
-            </ul>
-          </div>
-          <div class="col">
-            <img
-              src="media/memoji.png"
-              alt="animated image"
-              width="250px"
-              class="memoji"
-            />
-          </div>
-        </div>
-      </div>
-      <hr />
-      <br />
-      <h2 class="skills-title">Skills</h2>
-
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">
-            <h5>Frontend</h5>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/html.png" alt="html logo" width="50px" />
-                <h5>HTML5</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/css-3.png" alt="css logo" width="50px" />
-                <h5>CSS3</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/js.png" alt="javascript logo" width="50px" />
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/react.png" alt="react logo" width="50px" />
-                <h5>React</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/Vite.js.png" alt="vite logo" width="50px" />
-                <h5>Vite</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="media/bootstrap-logo.svg"
-                  alt="bootstrap logo"
-                  width="50px"
-                />
-                <h5>Bootstrap</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="media/tailwindcss-mark.d52e9897.svg"
-                  alt="tailwind css logo"
-                  width="50px"
-                />
-                <h5>Tailwind CSS</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <h5 class="backend-title">Backend</h5>
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="media/Primary_Vertical_Lockup_Full_Color_Inverted.png"
-                  alt="firebase logo"
-                  width="40px"
-                />
-                <h5>Firebase</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/nodejs.png" alt="node.js logo" width="50px" />
-                <h5>Node.js</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/python.png" alt="python logo" width="50px" />
-                <h5>Python</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <h5>Tools</h5>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/social.png" alt="git logo" width="50px" />
-                <h5>Git</h5>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img src="media/github.png" alt="github logo" width="50px" />
-                <h5>Github</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <h2 class="project-title">Projects</h2>
-
-      <div class="container text-center">
-        <div class="row row-project">
-          <h3 style="text-decoration: underline">Private Members Club</h3>
-          <p>
-            A sleek, modern website for a private members club built with React
-            and styled using bootstrap. Users can sign up, log in, and view
-            upcoming events. Admins can create new events, while members can
-            book them securely. The app uses Firebase for authentication, data
-            storage, and deployment, making it a functional full-stack
-            application.
-          </p>
-          <span>
-            <a
-              href="https://alexander-house.netlify.app/"
-              target="_blank"
-              style="padding-right: 20px"
-              class="project-link"
-              >Visit the page</a
-            >
-            <a
-              href="https://github.com/Tanyachitsa/alexander-house/tree/master"
-              target="_blank"
-              class="project-link"
-              >View the repository</a
-            >
-          </span>
-        </div>
-        <div class="row row-project">
-          <h3 style="text-decoration: underline">Weather App</h3>
-          <p>
-            An interactive weather application built with HTML, CSS, and
-            JavaScript, using Bootstrap for responsive design. Users can search
-            for any city to see real-time weather updates fetched from a live
-            weather API. It’s deployed on Netlify for public access.
-          </p>
-          <span>
-            <a
-              href="https://finalweatherprojectshecodes.netlify.app/"
-              target="_blank"
-              style="padding-right: 20px"
-              class="project-link"
-              >Visit the page</a
-            >
-            <a
-              href="https://github.com/Tanyachitsa/Final-weather-project"
-              target="_blank"
-              class="project-link"
-              >View the repository</a
-            >
-          </span>
-        </div>
-        <div class="row row-project">
-          <h3 style="text-decoration: underline">Python recipe search</h3>
-          <p>
-            An application built in Python that allows users to search for
-            recipes based on a given ingredient. It fetches recipe data from an
-            external API and returns relevant results in a clean, readable
-            format.
-          </p>
-          <a href="pythonProject.html" class="project-link" target="_blank"
-            >View the page</a
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title" data-aos="fade-down">Thelma's Portfolio</h1>
+          <p class="hero-subtitle" data-aos="fade-down">Frontend developer</p>
+          <a href="#projects" class="btn btn-primary" data-aos="fade-right"
+            >View My Work</a
+          >
+          <a href="#contact" class="btn btn-secondary" data-aos="fade-left"
+            >Get In Touch</a
           >
         </div>
-      </div>
-    </main>
+      </section>
+      <section id="about" class="about-section">
+        <h2 class="about-section-title" data-aos="fade-left">About Me</h2>
+        <p class="section-subtitle" data-aos="fade-right">
+          Get to know me and my background
+        </p>
+        <div class="container text-center main-wrap">
+          <div class="row">
+            <div class="col">
+              <div class="intro" data-aos="fade-down">
+                I'm a Pharmaceutical science graduate transitioning into the
+                tech sector with a passion for building responsive web
+                applications. Self-taught and project-driven.
+                <br />My journey into tech started when I discovered the power
+                of turning ideas into interactive experiences through code.
+                Since then, I've been honing my skills and expanding my
+                knowledge to create solutions that not only look great but work
+                flawlessly. <br />When I'm not coding, you can find me exploring
+                new technologies, contributing to open-source projects, or
+                enjoying outdoor activities to maintain a healthy work-life
+                balance.
+              </div>
+            </div>
+            <div class="col">
+              <img
+                data-aos="fade-down"
+                class="face-image"
+                src="media/solo-with-flowers.jpg"
+                alt="thelma's picture"
+                height="370"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="skill-section">
+        <h2 class="skills-title">Skills</h2>
 
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col" data-aos="flip-left">
+              <h5 class="frontend-title">Frontend</h5>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/html.png" alt="html logo" width="50px" />
+                  <h5>HTML5</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/css-3.png" alt="css logo" width="50px" />
+                  <h5>CSS3</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/js.png" alt="javascript logo" width="50px" />
+                  <h5>JavaScript</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/react.png" alt="react logo" width="50px" />
+                  <h5>React</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/Vite.js.png" alt="vite logo" width="50px" />
+                  <h5>Vite</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="media/bootstrap-logo.svg"
+                    alt="bootstrap logo"
+                    width="50px"
+                  />
+                  <h5>Bootstrap</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="media/tailwindcss-mark.d52e9897.svg"
+                    alt="tailwind css logo"
+                    width="50px"
+                  />
+                  <h5>Tailwind CSS</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="flip-right">
+              <h5 class="backend-title">Backend</h5>
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="media/Primary_Vertical_Lockup_Full_Color_Inverted.png"
+                    alt="firebase logo"
+                    width="40px"
+                  />
+                  <h5>Firebase</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/nodejs.png" alt="node.js logo" width="50px" />
+                  <h5>Node.js</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/python.png" alt="python logo" width="50px" />
+                  <h5>Python</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="flip-down">
+              <h5 class="tools-title">Tools</h5>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/social.png" alt="git logo" width="50px" />
+                  <h5>Git</h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <img src="media/github.png" alt="github logo" width="50px" />
+                  <h5>Github</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="project-title" data-aos="fade-up">My Projects</h2>
+        <p class="section-subtitle" data-aos="fade-down">
+          Check out some of my recent work
+        </p>
+        <div class="container text-center">
+          <div class="row row-project" data-aos="fade-right">
+            <h3 style="text-decoration: underline">Private Members Club</h3>
+            <p>
+              A sleek, modern website for a private members club built with
+              React and styled using bootstrap. Users can sign up, log in, and
+              view upcoming events. Admins can create new events, while members
+              can book them securely. The app uses Firebase for authentication,
+              data storage, and deployment, making it a functional full-stack
+              application.
+            </p>
+            <span>
+              <a
+                href="https://alexander-house.netlify.app/"
+                target="_blank"
+                style="padding-right: 20px"
+                class="project-link"
+                >Visit the page</a
+              >
+              <a
+                href="https://github.com/Tanyachitsa/alexander-house/tree/master"
+                target="_blank"
+                class="project-link"
+                >View the repository</a
+              >
+            </span>
+          </div>
+          <div class="row row-project" data-aos="fade-left">
+            <h3 style="text-decoration: underline">Weather App</h3>
+            <p>
+              An interactive weather application built with HTML, CSS, and
+              JavaScript, using Bootstrap for responsive design. Users can
+              search for any city to see real-time weather updates fetched from
+              a live weather API. It’s deployed on Netlify for public access.
+            </p>
+            <span>
+              <a
+                href="https://finalweatherprojectshecodes.netlify.app/"
+                target="_blank"
+                style="padding-right: 20px"
+                class="project-link"
+                >Visit the page</a
+              >
+              <a
+                href="https://github.com/Tanyachitsa/Final-weather-project"
+                target="_blank"
+                class="project-link"
+                >View the repository</a
+              >
+            </span>
+          </div>
+          <div class="row row-project" data-aos="fade-right">
+            <h3 style="text-decoration: underline">Python recipe search</h3>
+            <p>
+              An application built in Python that allows users to search for
+              recipes based on a given ingredient. It fetches recipe data from
+              an external API and returns relevant results in a clean, readable
+              format.
+            </p>
+            <a href="pythonProject.html" class="project-link" target="_blank"
+              >View the page</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" data-aos="zoom-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>
+          I'm currently available for freelance work and job opportunities.
+          Whether you have a project that needs to be built from scratch or an
+          existing one that needs improvements, I'd love to hear from you.
+        </p>
+
+        <a href="mailto:thelmatchitsa@gmail.com">Email</a>
+      </section>
+    </main>
     <footer>
-      <p style="text-align: center">Built and designed by Thelma Chitsa 2025</p>
+      <p>Built by Thelma T Chitsa 2025</p>
     </footer>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   </body>
 </html>
